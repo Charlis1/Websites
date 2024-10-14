@@ -1,0 +1,126 @@
+.listofosi + h1 {
+color:cyan;
+
+}
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.list {
+
+     color:white;
+     border:3px solid green;
+     margin:9px;
+     padding:3px;
+}
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.list::after{
+       content:" LAYER ";
+} 
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.list:nth-child(1){
+       color:red;
+       background-color:black; 
+} 
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.osip::before {
+     content:"-- ";
+
+}
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#navig {
+      background-color: #333;
+      padding: 10px;
+      border: 1px solid green;
+      border-radius:3px;
+    }
+    
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#navig #ulnav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#navig #ulnav .linav {
+      display: inline-block;
+      margin-right: 15px;
+      border-radius:2px;
+      
+    }
+    
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#navig #ulnav .linav a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 2px;
+    }
+  
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#navig #ulnav .linav a:hover {
+      background-color: green;
+      border-radius:2px;
+    }
+    
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ 
+#osi {
+      border:5px solid brown;
+      margin:5px;
+      margin-left:20%;
+      legth:400px;
+      width:600px;
+      alt:"OSI MODEL";
+   
+} 
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#bodybox {
+      background-color:#8c8f94;
+
+}
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.osiname {
+      border:3px solid orange;
+      text-align:center;
+      align:center;
+      background-color:#333;
+      color: white;
+      padding:30px;
+      margin:0px;
+      
+      
+}
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.osip  {
+	
+      border:3px solid orange;
+      background-color:#333;
+      color: white;
+      padding:10px;
+      margin:0px;
+      text-size:12px;
+     
+
+}
+
+/*  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+    
+
